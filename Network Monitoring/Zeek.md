@@ -79,4 +79,7 @@ root@ubuntu$ ls -l
 
 `zeekctl` :  Zeek  Control Module
 
+## Zeek Logs
+
+Zeek generates detailed log files based on traffic data, logging every connection and associated application-level protocols and fields. It identifies over 50 types of logs, categorized into seven groups. These logs are well-structured, tab-separated ASCII files, which are easy to read and process but require effort and networking knowledge for effective use. Each log contains multiple fields representing different parts of the traffic data. A unique identifier called "UID" is used to correlate data across different logs and sessions.
 
